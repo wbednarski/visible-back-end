@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
+# Support for JSON API http://jsonapi.org
+gem 'active_model_serializers', github: 'rails-api/active_model_serializers', tag: 'v0.10.0.rc5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
