@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+REGISTERED_USER_METRICS = 7
+
+REGISTERED_USER_METRICS.times do |i|
+  i+=1
+  registered_user = RegisteredUser.new
+  registered_user.attributes = {
+      date: Faker::Date.forward(i),
+      number: Faker::Number.number(i)
+  }
+
+  registered_user.save!(validate: false)
+end
