@@ -55,7 +55,7 @@ testem.log
 .DS_Store
 
 ### JetBrains template
-.idea
+.idea/
 
 ## File-based project format:
 *.iws
