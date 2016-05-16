@@ -54,8 +54,8 @@ testem.log
 # OS X
 .DS_Store
 
-### JetBrains template
-.idea/
+### JetBrains
+.idea/*
 
 ## File-based project format:
 *.iws
