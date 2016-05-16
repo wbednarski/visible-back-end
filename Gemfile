@@ -30,6 +30,24 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platform: :mri
+  # Access an IRB console on exception pages or by using <%= console %> in views
+  gem 'web-console'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+  # Better error page for Rack apps
+  gem 'better_errors'
+  # For RailsPanel Chrome extension
+  gem 'meta_request'
+  # An IRB alternative and runtime developer console
+  gem 'pry'
+  # Use Pry as your rails console
+  gem 'pry-rails'
+  # Better error page for Rack apps
+  gem 'binding_of_caller'
+  # Generate fake data
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
