@@ -46,6 +46,6 @@ class RegisteredUsersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def registered_user_params
-      params.require(:registered_user).permit(:date, :number)
+      params.require(:data).require(:attributes).permit(:date, :number)
     end
 end
