@@ -25,4 +25,9 @@ class RegisteredUserTest < ActiveSupport::TestCase
     result = RegisteredUser.new(date: Time.now, number: 37)
     assert result.valid?
   end
+
+  test 'fails if number is not integer for Registered User' do
+    result = RegisteredUser.new(date: Time.now, number: 37.9)
+    refute result.valid?
+  end
 end
