@@ -1,25 +1,10 @@
-# visible-back-end
+# Visible Back End
 Rails 5 JSON 1.0 API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Quick Start
+* `git clone git@github.com:wbednarski/visible-back-end.git` this repository
+* change into the new directory
+* `bundle install`
+* `rails s --binding 0.0.0.0`
+* clone client: https://github.com/wbednarski/visible-front-end and follow instruction there
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
